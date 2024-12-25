@@ -67,4 +67,5 @@ main branch: when should it trigger , when we raise the pull request /push it sh
 feature branch pipeline: when should it trigger: only on push and it should do terraform init,fmt,validate,plan-out(plan report)
  configure remote s3 backed and dynamodb for state locking
 
-create alb ,asg, 
+create alb ,asg, rds
+going  to do first pipeline
