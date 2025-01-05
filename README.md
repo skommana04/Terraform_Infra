@@ -46,7 +46,7 @@ cidr: 0.0.0.0/0
 -----------------------------------
 
 target group rules:
- ingress: any traffic coming to the alb to any of my ports:
+ ingress: any traffic coming from the alb to any of my ports:
  from:0
  to:0
  tcp : -1
